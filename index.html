@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .cont {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>Hello!</h1>
+      <h1>Hello!</h1>
     </header>
 
-    <section>
-        <article>
-            <h2>Content</h2>
-            <p>Enter Details</p>
+    <section class="head">
+      <article>
+        <h2 class="cont">Content</h2>
+        <p style="background-color: blueviolet">Enter Details</p>
 
-            <form>
-                <div>
-                    <label for="first_name">First name:</label>
-                    <input type="text" id="first_name" name="first_name">
-                </div>
-                <div>
-                    <label for="dob">Date of birth:</label>
-                    <input type="date" id="dob" name="dob">
-                </div>
-            </form>
-        </article>
+        <form>
+          <div>
+            <label for="first_name">First name:</label>
+            <input type="text" id="first_name" name="first_name" />
+          </div>
+          <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob" />
+          </div>
+        </form>
+      </article>
     </section>
-</body>
+
+    <section>
+      <h2>Video</h2>
+      <video controls id="vid">
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <img src="exg.jpg" alt="Example Image" width="400" height="200" />
+    </section>
+  </body>
 </html>
