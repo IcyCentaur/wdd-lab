@@ -1,0 +1,13 @@
+html {
+  background-color: aqua;
+}
+
+.head {
+  background-color: bisque;
+}
+
+#vid {
+  margin-right: 1000px;
+  padding: 10px;
+  background-color: black;
+}
