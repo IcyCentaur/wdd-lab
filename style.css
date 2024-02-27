@@ -11,3 +11,11 @@ html {
   padding: 10px;
   background-color: black;
 }
+
+.form {
+  margin-right: 1000px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  margin-bottom: 500px;
+}
